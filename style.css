@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+/* ------- Icons ------- 
+  telephone - <i class="fa-solid fa-phone"></i>
+  location - <i class="fa-solid fa-location-dot"></i>
+  time - <i class="fa-solid fa-timer"></i>
+  bell - <i class="fa-solid fa-bell"></i>
+  program - <i class="fa-brands fa-discourse"></i>
+  library - <i class="fa-solid fa-album-collection"></i>
+  athletic - <i class="fa-thin fa-dumbbell"></i>
+  information - <i class="fa-light fa-circle-info"></i>
+  flag - <i class="fa-solid fa-flag"></i>
+  App - <i class="fa-solid fa-mobile"></i>
+  download - <i class="fa-thin fa-calendar-arrow-down"></i>
+  brochure - <i class="fa-thin fa-cloud-arrow-down"></i>
+
+schooltime theme
+http://schooltime.aislinthemes.com/modern/
+*/
+:root{
+    --font-color:7F8487;
+    --background-color:#ffffff;
+    --button-color:#f16767;
+    --icon-color:#f16767;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 180px;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 100%;
+}
+.info-nav{
+    width: 100%;
+    height: 70%;
+    font-weight: 100;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-nav{
+    width: 100%;
+    height: 30%;
+    background-color:black;
+}
+.menu-nav ul{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 100;
+}
+.menu-nav ul li{
+    list-style-type: none;
+}
+.menu-nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo{
+    width: 30%;
+    padding-left: 20px;
+}
+.contact-nfo{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fone, .location, .time{
+    display: flex;
+    justify-content: space-evenly;
+}
+.para{
+    line-height: 20px;
+    font-weight: 100;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.btn-tour{
+    width: 180px;
+    height: 60px;
+    background-color: #f16767;
+    border: none;
+    border-radius: 2px;
+    color: var(--background-color);
+    font-size: 17px;
+    margin-top: -10px;
+}
+.main{
+    width: 100%;
+}
+/* slider */
+.swiper {
+    width: 100%;
+    height: 450px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .slide-info{
+      position: absolute;
+      top: 100px;
+      left: 80px;
+      font-size: 20px;
+      text-align: left;
+      width: 500px;
+      height: 300px;
+      line-height: 60px;
+      color: #ffffff;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #info-nav{
+      color: #292828;
+  }
+  .btn-1, .btn-3{
+      background-color: #f16767;
+      color: #ffffff;
+  }
+  .btn-2, .btn-4{
+    background-color: #ffffff;
+    color: #292828;
+}
+  
+  button{
+      width: 180px;
+      height: 50px;
+      background-color: #ccc3c3;
+      border: none;
+      border-radius: 2px;
+      font-size: 17px;
+  }
+  .section-wrapper{
+      width: 100%;
+      height: 500px;
+      margin-top: 20px;
+  }
+  .section-1{
+    width: 95%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-column-gap:25px;
+    margin: 0px auto;
+    padding: 40px 0px;
+  }
+  .box-2 img, .box-3 img, .box-4 img{
+    width: 100%;
+    height: 180px;
+  }
+  .box-1, .box-2, .box-3, .box-4{
+      line-height: 30px;
+      font-weight: 0;
+  }
+  .box-1 h1, .box-2 h1, .box-3 h1, .box-4 h1{
+    padding: 10px 0px;
+}
+  .box-1{
+      border: 1px solid rgb(74, 73, 73);
+      padding: 20px;
+  }
+  .read-more-btn{
+      color: #f16767;
+      padding: 10px 0px 0px 0px;
+      cursor: pointer;
+  }
